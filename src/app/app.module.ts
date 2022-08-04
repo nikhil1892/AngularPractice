@@ -10,6 +10,7 @@ import { StarComponent } from './shared/star.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { ProductDetailComponent } from './product/product-detail.component';
 import { RouterModule } from '@angular/router';
+import { ProductDetaisslComponent } from './product/product-detaissl.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RouterModule } from '@angular/router';
     ProductComponent,
     StarComponent,
     WelcomeComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ProductDetaisslComponent
   ],
   imports: [
     BrowserModule,
